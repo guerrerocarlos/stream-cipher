@@ -1,0 +1,28 @@
+{
+  "name": "stream-cipher",
+  "version": "0.0.1",
+  "description": "Cipher streams byte by byte, maintaining exact stream length",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guerrerocarlos/stream-cipher.git"
+  },
+  "keywords": [
+    "cipher",
+    "stream",
+    "byte",
+    "fast"
+  ],
+  "author": "Carlos Guerrero <guerrerocarlos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guerrerocarlos/stream-cipher/issues"
+  },
+  "homepage": "https://github.com/guerrerocarlos/stream-cipher#readme",
+  "devDependencies": {
+    "async": "^2.1.5"
+  }
+}
