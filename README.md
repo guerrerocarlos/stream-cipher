@@ -13,10 +13,10 @@ API
 
 Create a new engine instance. Options can contain the following
 
-- initialization_vector: 'string' //(required)
-- password: 'string' // (required)
-- speed: 'number' // Increases the speed by generating HMACs less frequently
-- encript: Boolean // true: cipher, false: decipher
+- initialization_vector: 'string' // (**required**)
+- password: 'string' // (**required**)
+- speed: 'number' // default: 20 | Increases the speed by generating HMACs less frequently
+- encript: Boolean // default: true | true: cipher, false: decipher
 
 Cipher Stream Example:
 ---
