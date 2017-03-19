@@ -4,7 +4,7 @@ var fs = require('fs');
 
 function StreamCipher(iv, password, speed, mode, i) {
   var self = this;
-  self.speed = 20
+  self.speed = speed
   self.shatype = (256 * self.speed) >= 512 ? 'sha' + 512 : 'sha' + (256 * self.speed)
   self.fingersize = self.speed >= 2 ? 64 : 32
   self.fingers_count = 0
