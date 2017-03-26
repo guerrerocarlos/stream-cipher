@@ -3,7 +3,7 @@ Stream Cipher
 
 Cipher and decipher streams 'on the fly' while keeping each byte position.
 
-Specially designed to encrypt *Range-aware* content.
+Specially designed for Amazon S3 ranged GETs.
 
 API
 ===
