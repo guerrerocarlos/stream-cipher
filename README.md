@@ -9,7 +9,7 @@ API
 ===
 
 
-#### `var sc = StreamCipher(initialization_vector, password, speed, encript)`
+#### `var sc = StreamCipher(initialization_vector, password, speed, encript, start_at_byte)`
 
 Create a new engine instance. Options can contain the following
 
@@ -17,6 +17,7 @@ Create a new engine instance. Options can contain the following
 - password: 'string' // (**required**)
 - speed: 'number' // default: 20 | Increases the speed by generating HMACs less frequently
 - encript: Boolean // default: true | true: cipher, false: decipher
+- start_at_byte: Tells de position of the first byte received by the stream, relative to the complete file.
 
 Cipher Stream Example:
 ---
