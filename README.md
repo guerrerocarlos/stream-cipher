@@ -58,4 +58,4 @@ var destination = fs.createWriteStream('./lipsum-decripted-without-first-10-byte
 origin.pipe(sc.digest).pipe(destination)
 ```
 
-For more information, check the see the /test folder.
+For more information, see /test folder.
